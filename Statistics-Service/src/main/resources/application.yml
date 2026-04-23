@@ -1,12 +1,13 @@
 spring:
   kafka:
-    bootstrap-servers: kafka:9092
+    bootstrap-servers: localhost:9092
     consumer:
       group-id: stat-group
       auto-offset-reset: earliest
 
   rabbitmq:
-    host: rabbitmq
+    # Đổi 'rabbitmq' thành 'localhost'
+    host: localhost
     port: 5672
     username: guest
     password: guest
