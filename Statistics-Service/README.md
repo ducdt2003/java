@@ -28,12 +28,15 @@ lợi ích: - giúp cho hệ thống có thể xử lý nhiều yêu cầu cùng
 2. RabbitMQ: - một hệ thống quản lý hàng đợi mã nguồn mở, được viết bằng ngôn ngữ Erlang. 
              - được sinh ra bằng lĩnh vực taì chính, có khả năng chịu tải cao, độ tin cậy tuyệt đối.
              - mọi thứ được thiết lập để dữ liệu được đến nơi an toàn 
+==> bưu điện thông minh
+3. Kafka: - nền tảng lưu trữ và xữ lý phân tán
+          - lưu trữ và thu thập và xữ lý những luồng dữ liệu lớn trong thời gian thực
+          - được thiết kế để xử lý các luồng dữ liệu lớn và có khả năng mở rộng cao, có thể xử lý hàng triệu tin nhắn mỗi giây.
+          - được sử dụng rộng rãi trong các ứng dụng như phân tích dữ liệu, giám sát hệ thống, và xử lý sự kiện thời gian thực.
+==> cuốn nhật ký 
 
-3. Kafka: 
-   
-
-4. so sánh 
-
+4. so sánh
+5. 
 ![img_2.png](img_2.png)
 
 Trong đó: - Broker thông minh chủ động gửi tin nhắn đến cho người nhận
