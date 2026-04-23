@@ -36,7 +36,7 @@ lợi ích: - giúp cho hệ thống có thể xử lý nhiều yêu cầu cùng
 ==> cuốn nhật ký 
 
 4. so sánh
-5. 
+
 ![img_2.png](img_2.png)
 
 Trong đó: - Broker thông minh chủ động gửi tin nhắn đến cho người nhận
